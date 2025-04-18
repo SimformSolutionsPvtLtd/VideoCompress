@@ -9,7 +9,7 @@ import io.flutter.plugin.common.MethodChannel
 import org.json.JSONObject
 import java.io.File
 
-class Utility(private val channelName: String) {
+public class Utility(private val channelName: String) {
 
     fun isLandscapeImage(orientation: Int) = orientation != 90 && orientation != 270
 
