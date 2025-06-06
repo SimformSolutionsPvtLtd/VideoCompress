@@ -7,7 +7,7 @@ import java.io.ByteArrayOutputStream
 import java.io.File
 import java.io.IOException
 
-class ThumbnailUtility(channelName: String) {
+public class ThumbnailUtility(channelName: String) {
     private val utility = Utility(channelName)
 
     fun getByteThumbnail(path: String, quality: Int, position: Long, result: MethodChannel.Result) {
